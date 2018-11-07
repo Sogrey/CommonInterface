@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CommonInterfaceDemo.iml" filepath="$PROJECT_DIR$/CommonInterfaceDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CommonInterface.iml" filepath="$PROJECT_DIR$/CommonInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/commoninterface/commoninterface.iml" filepath="$PROJECT_DIR$/commoninterface/commoninterface.iml" />
     </modules>

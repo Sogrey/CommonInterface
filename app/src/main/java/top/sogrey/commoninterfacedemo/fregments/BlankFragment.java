@@ -42,7 +42,7 @@ public class BlankFragment extends BaseFragment {
 
    private void onPressed(){
        try {
-           mFunctionManager.invokeNRNP(INTERFACE);
+           mFunctionManager.invoke(INTERFACE);
        } catch (FunctionException e) {
            e.printStackTrace();
        }

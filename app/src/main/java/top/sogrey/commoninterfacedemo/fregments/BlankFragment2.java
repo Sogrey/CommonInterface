@@ -44,7 +44,7 @@ public class BlankFragment2 extends BaseFragment {
 
     private void onPressed() {
         try {
-            String result = mFunctionManager.invokeYRYP(INTERFACE, new String[]{"发给Mainactivity的参数","ddd"});
+            String result = mFunctionManager.invoke(INTERFACE, new String[]{"发给Mainactivity的参数","ddd"},String.class);
             Toast.makeText(mMainActivity, result, Toast.LENGTH_LONG).show();
         } catch (FunctionException e) {
             e.printStackTrace();
